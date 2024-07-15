@@ -7,10 +7,28 @@
         body{
             background-color: rgb(253, 246, 237);
             color: black;
+        
         }
-        .navbar{
-            background-color: blanchedalmond;
+        nav{
+            text-align: center;
         }
+        .list-1{
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            gap: 30px;
+            font-weight: lighter;
+            font-size: 22px;}
+            .p-1{
+        font-size: 40px;
+        font-weight: bold;
+            }
+            .div_{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        font-size: 22px;
+       }
         .div{
            text-align: end;
            gap: 27px;
@@ -29,7 +47,11 @@
        .inside{
         display: flex;
        }
-    
+       a{
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+       }
        .div_1{
         width: 60%;
         padding-top: 20px; 
@@ -55,25 +77,36 @@
        .foot{
         padding-left: 20px;
         padding-right: 10px;
-        background-color: rgb(250, 235, 213);
-       }       
+        text-align: center;
+       }
+       .div-6{
+       }
+       p{
+        border: 2px solid brown ;
+        border-radius: 5px;
+        font-size: 20px;
+        background-color: blanchedalmond;
+       }
+       .awareness{
+        text-align: center;
+       }
     </style>
       </head>
 <body>
-        <nav class="navbar">
-            <div>
-                <h1><a href="./home.html">OurDifferences</a></h1>
-            </div>
-            <div class="div">
-                <ul>
-                    <li><a href="./home.html">Home</a></li>
-                    <li>Info</li>
-                    <li>Sources</li>
-                    <li>Get Involved</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-        </nav>  
+    <nav>
+        <div>
+            <h1 class="p-1">Our Differences</h1>
+        </div>
+        <div class="div-0">
+            <ul class="list-1">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./info.html">Info</a></li>
+                <li><a href="./sources.html">Sources</a></li>
+                <li><a href="./involved.html">Get Involved</a></li>
+                <li><a href="./cont.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
     <section class="inside">
         <div class="div_1">
             <h2>What is body image? </h2>
@@ -100,8 +133,8 @@
             <img src="./imgpour web.jpg" alt="image">
         </div>
     </section>
-    <section>
-        <h2>Raising Awareness</h2>
+    <section class="aw" >
+        <h2 class="Awareness">Raising Awareness</h2>
         <p>veryone has a right to feel comfortable and confident in their skin, 
             and we can take small actions in our daily lives to help foster a more accepting environment.
             For example, it may be helpful to be mindful of how we speak about our bodies in casual conversations with friends and family. 
@@ -114,28 +147,22 @@
             Reviews of the research have found support for the relationship between physical activity and positive body image. 
             If body image concerns are causing significant distress, it may be appropriate to seek out further support in the form of psychological therapies. 
             Reviews of the research have found some support for cognitive and behavioural interventions such as Acceptance and Commitment Therapy (ACT) 
-            and Dialectical Behaviour Therapy (DBT) in improving body image</p>
-            <p>To maximise outcomes and reduce the risk of stigma, public health campaigns should focus on messages of healthy eating and exercise 
+            and Dialectical Behaviour Therapy (DBT) in improving body image To maximise outcomes and reduce the risk of stigma, public health campaigns should focus on messages of healthy eating and exercise 
                 for all adults, regardless of weight, and avoid making weight the key focus of their messaging. 
                 However, creating a less shaming culture can also start at a community level with grassroots action to encourage more inclusive 
                 and accepting cultural norms around bodily appearance. </p>
 
     </section>
-    <section>
-        <div>
-        <footer class="foot">
-        <div class="div_3">
-            <h3>On the page</h3>
+    <footer class="foot">
+        <div class="div-5">
+            <h2>On the page:</h2>
         </div>
-        <div class="div_4"> 
-            <div><p>Learn more</p></div>
-            <div><p>Our Resources:</p></div>
-            <div><p>Get Involved: <br>
-                you can invole yourself and  help raising awarnes you just have to click here</p></div>
-           <div><p>Contact Us:</p></div>
+        <div class="div-6"> 
+            <a href="./info.html">Learn more</a>
+            <a href="./sources.html">Our Resources</a>
+            <a href="./involved.html">Get Involved</a>
+            <a href="./cont.html">Contact Us</a>
         </div>
-       </footer>
-    </div>
-    </section>
+    </footer>
 </body>
 </html>
